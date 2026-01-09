@@ -1,0 +1,9 @@
+backend/venv/
+backend/.env
+__pycache__/
+*.pyc
+
+agrisense_app/build/
+agrisense_app_new/build/
+agrisense_app_new/.dart_tool/
+agrisense_app_new/.idea/

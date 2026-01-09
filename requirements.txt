@@ -1,0 +1,20 @@
+fastapi==0.121.3
+uvicorn==0.38.0
+python-dotenv==1.2.1
+joblib==1.5.2
+numpy==2.2.6
+
+# --- Supabase compatible versions ---
+supabase==2.0.0
+gotrue==1.3.1
+postgrest==0.13.0
+storage3==0.5.3
+realtime==1.0.0
+supafunc==0.3.3
+
+# --- HTTP dependencies (very important) ---
+httpx==0.24.0
+httpcore==0.17.3
+h11==0.14.0
+sniffio==1.3.1
+certifi>=2023.0.0
