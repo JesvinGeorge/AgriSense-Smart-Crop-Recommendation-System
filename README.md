@@ -58,26 +58,23 @@ Accuracy achieved ranges from **80% to 96%** depending on the district.
 5. Saving models, encoders, and scalers  
 6. FastAPI backend for prediction  
 7. Flutter mobile app for user interaction  
-8. Supabase for database and authentication  
+8. Supabase for database   
 
 ---
 
 ## 📊 Model Performance (Confusion Matrices)
 
-### Mandya – LightGBM (Accuracy: 84.52%)
+
 <p align="center">
   <img src="https://github.com/nandan-byte/AgriSense-Smart-Crop-Recommendation-System/blob/634b9ed5d6ca4aea67729b98e286cf6bbcab3b3c/images/Screenshot%202025-12-29%20092612.png" width="600">
 </p>
 
-### Vijayapura – CatBoost (Accuracy: 93.08%)
+
 <p align="center">
   <img src="https://github.com/nandan-byte/AgriSense-Smart-Crop-Recommendation-System/blob/634b9ed5d6ca4aea67729b98e286cf6bbcab3b3c/images/Screenshot%202025-12-29%20092623.png" width="600">
 </p>
 
-### Belagavi – CatBoost (Accuracy: 96.65%)
-<p align="center">
-  <img src="images/belagavi_confusion.png" width="600">
-</p>
+
 
 ---
 
