@@ -38,13 +38,19 @@ For each district, multiple models are trained and the best-performing one is se
 - Extra Trees Classifier
 - XGBoost
 - LightGBM
-- CatBoost
+- CatBoost  
 
 Accuracy achieved ranges from **80% to 96%** depending on the district.
 
 ---
 
 ## 🏗️ System Architecture
+
+<p align="center">
+  <img src="images/system_architecture.png" width="650">
+</p>
+
+**Architecture Flow:**
 1. Dataset preprocessing and cleaning  
 2. District-wise dataset split  
 3. Training multiple ML models per district  
@@ -56,26 +62,72 @@ Accuracy achieved ranges from **80% to 96%** depending on the district.
 
 ---
 
+## 📊 Model Performance (Confusion Matrices)
+
+### Mandya – LightGBM (Accuracy: 84.52%)
+<p align="center">
+  <img src="images/mandya_confusion.png" width="600">
+</p>
+
+### Vijayapura – CatBoost (Accuracy: 93.08%)
+<p align="center">
+  <img src="images/vijayapura_confusion.png" width="600">
+</p>
+
+### Belagavi – CatBoost (Accuracy: 96.65%)
+<p align="center">
+  <img src="images/belagavi_confusion.png" width="600">
+</p>
+
+---
+
+## 📱 Flutter Mobile Application
+
+### Input Screen
+<p align="center">
+  <img src="images/app_input.png" width="300">
+</p>
+
+### Filled Input Form
+<p align="center">
+  <img src="images/app_filled_input.png" width="300">
+</p>
+
+### Top-3 Crop Recommendation Output
+<p align="center">
+  <img src="images/app_output.png" width="300">
+</p>
+
+---
+
 ## 📁 Project Structure
 
 ```text
 AgriSense_APP/
 │
+├── images/
+│   ├── system_architecture.png
+│   ├── mandya_confusion.png
+│   ├── vijayapura_confusion.png
+│   ├── belagavi_confusion.png
+│   ├── app_input.png
+│   ├── app_filled_input.png
+│   └── app_output.png
+│
 ├── backend/
-│   ├── app.py                     # FastAPI backend
-│   ├── models_15districts/        # Trained ML models (15 districts)
-│   └── requirements.txt           # Backend dependencies
+│   ├── app.py
+│   ├── models_15districts/
+│   └── requirements.txt
 │
-├── agrisense_app/             # Flutter mobile application
-│   ├── lib/                       # UI and application logic
-│   ├── android/                   # Android configuration
-│   ├── ios/                       # iOS configuration
-│   └── pubspec.yaml               # Flutter dependencies
+├── agrisense_app/
+│   ├── lib/
+│   ├── android/
+│   ├── ios/
+│   └── pubspec.yaml
 │
-├── main.ipynb                     # Model training & experimentation
-├── requirements.txt               # ML training dependencies
-└── README.md                      # Project documentation
-
+├── main.ipynb
+├── requirements.txt
+└── README.md
 ```
 ---
 
