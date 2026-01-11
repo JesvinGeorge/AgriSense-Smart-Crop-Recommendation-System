@@ -47,7 +47,7 @@ Accuracy achieved ranges from **80% to 96%** depending on the district.
 ## 🏗️ System Architecture
 
 <p align="center">
-  <img src="images/system_architecture.png" width="650">
+  <img src="https://github.com/nandan-byte/AgriSense-Smart-Crop-Recommendation-System/blob/634b9ed5d6ca4aea67729b98e286cf6bbcab3b3c/images/Screenshot%202025-12-29%20082138.png" width="650">
 </p>
 
 **Architecture Flow:**
@@ -66,12 +66,12 @@ Accuracy achieved ranges from **80% to 96%** depending on the district.
 
 ### Mandya – LightGBM (Accuracy: 84.52%)
 <p align="center">
-  <img src="images/mandya_confusion.png" width="600">
+  <img src="https://github.com/nandan-byte/AgriSense-Smart-Crop-Recommendation-System/blob/634b9ed5d6ca4aea67729b98e286cf6bbcab3b3c/images/Screenshot%202025-12-29%20092612.png" width="600">
 </p>
 
 ### Vijayapura – CatBoost (Accuracy: 93.08%)
 <p align="center">
-  <img src="images/vijayapura_confusion.png" width="600">
+  <img src="https://github.com/nandan-byte/AgriSense-Smart-Crop-Recommendation-System/blob/634b9ed5d6ca4aea67729b98e286cf6bbcab3b3c/images/Screenshot%202025-12-29%20092623.png" width="600">
 </p>
 
 ### Belagavi – CatBoost (Accuracy: 96.65%)
@@ -85,17 +85,17 @@ Accuracy achieved ranges from **80% to 96%** depending on the district.
 
 ### Input Screen
 <p align="center">
-  <img src="images/app_input.png" width="300">
+  <img src="https://github.com/nandan-byte/AgriSense-Smart-Crop-Recommendation-System/blob/634b9ed5d6ca4aea67729b98e286cf6bbcab3b3c/images/Screenshot_1763653084.png" width="300">
 </p>
 
 ### Filled Input Form
 <p align="center">
-  <img src="images/app_filled_input.png" width="300">
+  <img src="https://github.com/nandan-byte/AgriSense-Smart-Crop-Recommendation-System/blob/634b9ed5d6ca4aea67729b98e286cf6bbcab3b3c/images/Screenshot%202026-01-11%20104935.png" width="300">
 </p>
 
 ### Top-3 Crop Recommendation Output
 <p align="center">
-  <img src="images/app_output.png" width="300">
+  <img src="https://github.com/nandan-byte/AgriSense-Smart-Crop-Recommendation-System/blob/634b9ed5d6ca4aea67729b98e286cf6bbcab3b3c/images/Screenshot%202025-12-10%20135105.png" width="300">
 </p>
 
 ---
